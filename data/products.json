@@ -1,0 +1,23 @@
+[{
+  "_id": {
+    "$oid": "60914746235d9f091cd53b3d"
+  },
+  "title": "Áo in hình",
+  "slug": "áo-in-hình",
+  "desc": "<p>&aacute;o in h&igrave;nh 22020</p>\r\n",
+  "category": "quần-áo",
+  "price": 1000,
+  "image": "redshirt1.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6091480d235d9f091cd53b3e"
+  },
+  "title": "Táo",
+  "slug": "táo",
+  "desc": "<p>T&aacute;o đỏ</p>\r\n",
+  "category": "trái-cây",
+  "price": 100,
+  "image": "apples1.jpg",
+  "__v": 0
+}]

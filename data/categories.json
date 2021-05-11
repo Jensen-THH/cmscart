@@ -1,0 +1,15 @@
+[{
+  "_id": {
+    "$oid": "609146e7235d9f091cd53b3b"
+  },
+  "title": "Quần Áo",
+  "slug": "quần-áo",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "609146f7235d9f091cd53b3c"
+  },
+  "title": "Trái cây",
+  "slug": "trái-cây",
+  "__v": 0
+}]

@@ -1,0 +1,30 @@
+<%- include('../layout/adminheader') %>
+    <h2 class="page-title"> Edit a page</h2>
+    <a href="/admin/pages" class="btn btn-primary">Back to all pages</a>
+    <br><br>
+
+    <form method="POST" action="/admin/pages/edit-page/<%= slug %>">
+        <!-- title -->
+        <div class="form-group">
+            <label for="">Title</label>
+            <input type="text" class="form-control" name="title" value="<%= title %>" placeholder="Title">
+        </div>
+
+        <!-- slug -->
+        <div class="form-group">
+            <label for="">Slug</label>
+            <input type="text" class="form-control" name="slug" value="<%= slug %>" placeholder="Slug">
+        </div>
+
+        <!-- content -->
+        <div class="form-group">
+            <label for="">Content</label>
+            <textarea class="form-control" id="ta" cols="30" rows="10" name="content" value="<%= content %>"
+                placeholder="Content"></textarea>
+        </div>
+        <br>
+        <input type="hidden" name="id" value="<%= id %>">
+        <!-- Button -->
+        <button class="btn btn-primary">Submit</button>
+    </form>
+    <%- include('../layout/adminfooter') %>
